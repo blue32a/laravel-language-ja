@@ -17,6 +17,13 @@
         "phpunit/phpunit": "^8.5",
         "mockery/mockery": "^1.3"
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Blue32a\\Laravel\\Language\\ServiceProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "Blue32a\\Laravel\\Language\\": "src/"
