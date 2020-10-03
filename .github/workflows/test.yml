@@ -29,3 +29,6 @@ jobs:
 
     - name: Run test suite
       run: composer run-script test
+
+    - name: Run code sniffer
+      run: composer run-script cs
