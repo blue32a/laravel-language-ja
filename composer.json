@@ -15,7 +15,8 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^8.5",
-        "mockery/mockery": "^1.3"
+        "mockery/mockery": "^1.3",
+        "blue32a/php-coding-standard": "v0.1.0-alpha"
     },
     "extra": {
         "laravel": {
@@ -35,6 +36,8 @@
         }
     },
     "scripts": {
+        "cs": "vendor/bin/phpcs",
+        "cbf": "vendor/bin/phpcbf",
         "test": "vendor/bin/phpunit"
     }
 }
