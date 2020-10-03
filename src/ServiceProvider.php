@@ -15,7 +15,7 @@ class ServiceProvider extends BaseServiceProvider
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/lang' => $this->app->resourcePath('lang/'),
+                __DIR__ . '/../resources/lang' => $this->app->resourcePath('lang/'),
             ], 'blue32a-lang');
         }
     }
