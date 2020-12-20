@@ -23,3 +23,9 @@ Publish language resources.
 ```console
 $ php artisan vendor:publish --tag=blue32a-lang
 ```
+
+Change application locale configuration.
+
+```
+'locale' => 'ja',
+```
