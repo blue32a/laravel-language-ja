@@ -2,7 +2,9 @@
 
 ![](https://github.com/blue32a/laravel-language-ja/workflows/Test/badge.svg)
 
-Japanese language resources for [Laravel](https://github.com/laravel/laravel).
+[Laravel](https://github.com/laravel/laravel)の日本語リソース。
+
+Japanese language resources for Laravel.
 
 ## Notice
 
