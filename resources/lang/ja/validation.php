@@ -105,6 +105,8 @@ return [
     'required_with_all' => ':valuesのうち全て存在する場合、:attributeは必須です。',
     'required_without' => ':valuesのうちどれか一つでも存在していない場合、:attributeは必須です。',
     'required_without_all' => ':valuesのうち全て存在していない場合、:attributeは必須です。',
+    'prohibited_if' => ':otherが:valueの場合、:attributeは禁止されています。',
+    'prohibited_unless' => ':otherが:valuesにない限り、:attributeは禁止されています。',
     'same' => ':attributeと:otherは一致する必要があります。',
     'size' => [
         'numeric' => ':attributeは:sizeでなければなりません。',
