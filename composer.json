@@ -14,7 +14,7 @@
         "illuminate/support": "^6.0"
     },
     "require-dev": {
-        "blue32a/php-coding-standard": "v0.4.0-alpha",
+        "blue32a/php-coding-standard": "^1.0",
         "mockery/mockery": "^1.3",
         "php-parallel-lint/php-parallel-lint": "^1.3",
         "phpunit/phpunit": "^8.5"
