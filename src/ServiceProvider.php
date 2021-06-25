@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Blue32a\Laravel\Language;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
@@ -8,10 +10,8 @@ class ServiceProvider extends BaseServiceProvider
 {
     /**
      * Bootstrap services.
-     *
-     * @return void
      */
-    public function boot()
+    public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([

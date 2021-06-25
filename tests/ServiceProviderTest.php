@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Tests;
 
 use Blue32a\Laravel\Language\ServiceProvider;
@@ -16,7 +18,7 @@ class ServiceProviderTest extends TestCase
     /**
      * @test
      */
-    public function testBootRunningInConsole()
+    public function testBootRunningInConsole(): void
     {
         $appMock = Mockery::mock('Application');
         $appMock->shouldReceive('runningInConsole')
@@ -39,7 +41,7 @@ class ServiceProviderTest extends TestCase
     /**
      * @test
      */
-    public function testBootNotRunningInConsole()
+    public function testBootNotRunningInConsole(): void
     {
         $appMock = Mockery::mock('Application');
         $appMock->shouldReceive('runningInConsole')

@@ -32,6 +32,7 @@ return [
     ],
     'boolean' => ':attributeには真偽値を指定してください。',
     'confirmed' => ':attributeが確認用の値と一致しません。',
+    'current_password' => 'パスワードが正しくありません。',
     'date' => ':attributeは有効な日付ではありません。',
     'date_equals' => ':attributeは:dateと同じ日付でなければなりません。',
     'date_format' => ':attributeは:format形式と一致しません。',
@@ -105,6 +106,9 @@ return [
     'required_with_all' => ':valuesのうち全て存在する場合、:attributeは必須です。',
     'required_without' => ':valuesのうちどれか一つでも存在していない場合、:attributeは必須です。',
     'required_without_all' => ':valuesのうち全て存在していない場合、:attributeは必須です。',
+    'prohibited' => ':attributeは禁止されています。',
+    'prohibited_if' => ':otherが:valueの場合、:attributeは禁止されています。',
+    'prohibited_unless' => ':otherが:valuesにない限り、:attributeは禁止されています。',
     'same' => ':attributeと:otherは一致する必要があります。',
     'size' => [
         'numeric' => ':attributeは:sizeでなければなりません。',
