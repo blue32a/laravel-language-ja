@@ -121,7 +121,7 @@ return [
     'timezone' => ':attributeは有効なタイムゾーンでなければなりません。',
     'unique' => ':attributeはすでに使用されています。',
     'uploaded' => ':attributeのアップロードに失敗しました。',
-    'url' => ':attributeは無効な形式です。',
+    'url' => ':attributeは有効なURLでなければなりません。',
     'uuid' => ':attributeは有効なUUIDでなければなりません。',
 
     /*
